@@ -1,11 +1,7 @@
 Firstname= raw_input ('Enter Your First Name?') 
 Lastname= raw_input ('Enter Your Lastname?')
 
-DateofBirth= raw_input ('Enter Your date of birth: Day Month Year')
+Day, Month,Year = raw_input ('Enter Your day of birth'),raw_input ('Enter Your Month of birth'),raw_input ('Enter Your year of birth')
 
-x = DateofBirth.split
-Day= x[0]
-Month = x[1]
-Year = x[2]
 
 print Lastname,Firstname+' was born on',Month,Day,Year
